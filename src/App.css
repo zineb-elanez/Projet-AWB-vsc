@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  background-color: #e9e9e9;
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to top, #f7f7f7, #dcdcdc, #c1c1c1);
+}

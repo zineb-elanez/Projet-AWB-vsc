@@ -1,0 +1,12 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(to bottom, #d0d0d0, #b0b0b0, #8e8e8e);
+}
+
+.details {
+  flex-grow: 1;
+  padding: 20px;
+  background: #f0f0f0;
+  overflow-y: auto;
+}

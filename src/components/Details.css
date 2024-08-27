@@ -1,0 +1,330 @@
+.details-container {
+    padding: 20px;
+    background: #dfdada;
+    border-radius: 5px;
+  }
+  
+  .details-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .detail-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #ece9e9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detail-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .detail-info div {
+    margin-bottom: 5px;
+  }
+  .details-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    /*background-image: url('../Attijariegris.jpg');*/
+    background: linear-gradient(to bottom, #f9f9f9, #e2e2e2, #d0d0d0);
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .input-alt {
+    border-color: #032952;
+  }
+  
+  .input-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+    border-radius: 4px;
+  }
+  
+  .input-border-alt {
+    background-color: #c5d2e0;
+  }
+  
+  .add-edit-container {
+    margin-top: 20px;
+  }
+  
+  .checkbox-group {
+    margin: 10px 0;
+  }
+  
+  .checkbox-group label {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .save-btn {
+    background-color: #7ac48b;
+    color: #fff;
+  }
+  
+  .edit-btn {
+    background-color: #85a0bd;
+    color: #fff;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .add-row-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #5fa1e7;
+    color: #fff;
+  }
+  
+  .details-table {
+    margin-top: 10px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+
+
+
+
+
+  /*test*/
+  .dashboard-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+   /* background-color: #fff;*/
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #f9f9f9, #e2e2e2, #d0d0d0);
+  }
+  
+  h2 {
+    text-align: center;
+    color:#4a4a4a ;
+  }
+  
+  /* Table styles */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Form control styles */
+  .form-control3 {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .input-alt {
+    border-color: #032952;
+  }
+  
+  .input-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+    border-radius: 4px;
+  }
+  
+  .input-border-alt {
+    background-color: #c5d2e0;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .save-btn {
+    background-color: #7ac48b;
+    color: #fff;
+  }
+  
+  .edit-btn {
+    background-color: #85a0bd;
+    color: #fff;
+    margin-right: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Checkbox styles */
+  label {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Add row button */
+  .add-row-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #5fa1e7;
+    color: #fff;
+  }
+  .input {
+    color: #0f0f0f;
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+    border-bottom: var(--border-height) solid var(--border-before-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-border {
+    position: absolute;
+    background: var(--border-after-color);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .input:focus + .input-border {
+    width: 100%;
+  }
+  
+  .form-control {
+    position: relative;
+    --width-of-input: 300px;
+  }
+  
+  .input-alt {
+    font-size: 1.2rem;
+    padding-inline: 1em;
+    padding-block: 0.8em;
+    margin-left:3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-border-alt {
+    height: 3px;
+    background: linear-gradient(90deg, #FF6464 0%, #FFBF59 50%, #ff5c47 100%);
+    margin-left: 3px;
+    transition: width 0.4s cubic-bezier(0.42, 0, 0.58, 1.00);
+  }
+  
+  .input-alt:focus + .input-border-alt {
+    width: 100%;
+  }
+
+.Titre {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

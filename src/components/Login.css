@@ -1,0 +1,222 @@
+
+.login-page {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+ /* background: linear-gradient(to top, #f7f7f7, #dcdcdc, #c1c1c1);*/
+}
+
+.photo-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  /*background: url('../Attijariegris.jpg') no-repeat center/cover;
+  border-radius: 10px;
+  margin-right: 50px;
+  box-shadow: 5px 20px 50px #000;*/
+}
+
+.photo {
+  max-width: 55%;
+  max-height: 80%;
+  object-fit: cover;
+}
+
+.login-container {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #dadada;
+  margin-right:185px ;
+  overflow: hidden;
+  padding: 50px 35px;
+  background: linear-gradient(to bottom, #f9f9f9, #e2e2e2, #d0d0d0);
+}
+
+.login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.login label {
+  color: #4a4a4a;
+  font-size: 2.3em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login input {
+  width: 94%;
+  height: 30px;
+  background: #d0d0d0;
+  margin: 30px auto ;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: px;
+  margin-right: 10%;
+}
+
+.login button {
+  width:60%;
+  height: 40px;
+  color: #faf2f2;
+  background: #ffb14a;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  margin-top: 45px;
+  margin-left: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login button:hover {
+  background: #fc5127;
+}
+
+.alert {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #8ecf9e;
+  border-color: #c3e6cb;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #d88d93;
+  border-color: #f5c6cb;
+}
+
+
+
+/*ljadid*/
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #f1f0f0 solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #141414;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: rgb(226, 145, 38);
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 17.5px;
+  min-width: 5px;
+  color: #d19d2c;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+  color: rgb(240, 152, 70);
+  transform: translateY(-30px);
+}
+
+.form-control2
+ {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+.form-control2
+ input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 14px;
+  color: #0f0f0f;
+}
+
+.form-control2
+ input:focus,
+.form-control2
+ input:valid {
+  outline: 0;
+  border-bottom-color: rgb(250, 163, 34);
+}
+
+.form-control2
+ label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control2
+ label span {
+  display: inline-block;
+  font-size: 17.5px;
+  min-width: 5px;
+  color: #d19d2c;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control2
+ input:focus+label span,
+.form-control2
+ input:valid+label span {
+  color: rgb(240, 152, 70);
+  transform: translateY(-30px);
+}
+
+
+a {
+  color: rgb(136, 136, 248);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(182, 182, 243);
+}
